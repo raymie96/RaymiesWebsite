@@ -171,7 +171,8 @@ a,
 
 /* Module header */
 .module-small {
-  padding: 70px 0;
+  margin-top: -50px;
+  padding-bottom: 40px;
 }
 
 .module-extra-small {
@@ -181,6 +182,10 @@ a,
 .module-medium {
   padding: 75px 0px;
 }
+
+
+
+
 
 .holder-w {
   position: relative;
@@ -910,6 +915,7 @@ blockquote {
   position: relative;
   letter-spacing: 4px;
   text-align: center;
+       
   font-weight: 400;
   font-size: 30px;
   color: #111;
@@ -945,6 +951,46 @@ blockquote {
 
 .module-title + .module-subtitle {
   margin-top: -35px;
+}
+
+
+.school-title {
+  position: relative;
+  letter-spacing: 4px;
+  text-align: center;
+       
+  font-weight: 400;
+  font-size: 30px;
+  color: #111;
+  margin: 0 0 70px;
+}
+
+.school-subtitle {
+  text-align: left;
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 1px;
+  font-style: italic;
+}
+
+.school-date {
+  text-align: center;
+  font-size: 16px;
+  color: #111;
+  margin-bottom: 10px;
+}
+.school-boldtext {
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+  margin-bottom: 10px;
+  font-weight: 800;
+}
+
+
+.school ul > li {
+  text-align: left;
+  font-size: 13px;
 }
 
 /* Restaurant module header */
@@ -1502,7 +1548,7 @@ Photography Page Slider
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 30px;
   color: #111;
   margin: 16px 0 15px;
 }
@@ -1525,7 +1571,7 @@ Photography Page Slider
 }
 
 .alt-features-title {
-  font-size: 13px;
+  font-size: 16px;
   margin: 0 0 10px;
 }
 
