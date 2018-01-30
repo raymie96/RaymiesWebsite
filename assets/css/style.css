@@ -186,7 +186,6 @@ a,
 
 
 
-
 .holder-w {
   position: relative;
   display: table-cell;
@@ -992,6 +991,7 @@ blockquote {
   text-align: left;
   font-size: 15px;
   font-weight: 1000;
+  font-weight:normal;
 }
 
 /* Restaurant module header */
@@ -1793,7 +1793,7 @@ Photography Page Slider
 
 .count-icon {
   line-height: 1.2;
-  font-size: 42px;
+  font-size: 72px;
 }
 
 /*--------------------------------------------------------------
