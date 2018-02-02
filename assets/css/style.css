@@ -23,6 +23,11 @@ iframe {
   border: 0;
 }
 
+section.first {
+  min-height: 100vh;
+}
+
+
 .align-center {
   text-align: center;
 }
@@ -110,7 +115,7 @@ a,
   width: 25%;
   float: left;
   padding: 0;
-  font-size: 13px;
+  font-size: 19px;
   margin: -1px 0 0 -1px;
 }
 
@@ -121,7 +126,7 @@ a,
   min-height: 60px;
   text-align: center;
   line-height: 60px;
-  font-size: 28px;
+  font-size: 29px;
   margin-right: 5px;
 }
 
@@ -129,7 +134,7 @@ a,
   padding: 0;
   border: 1px solid #e5e5e5;
   margin: -1px 0 0 -1px;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .fa-icons > div > i {
@@ -140,7 +145,7 @@ a,
   border-right: 1px solid #f1f1f1;
   line-height: 40px;
   text-align: center;
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .help-block ul {
@@ -167,6 +172,7 @@ a,
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
+  height: 100%;
 }
 
 /* Module header */
@@ -205,6 +211,8 @@ a,
 }
 
 /* Sections dividers */
+
+
 .divider-w {
   border-top: 1px solid #eaeaea;
   margin: 0;
@@ -580,7 +588,7 @@ a,
   width: 28px;
   text-align: center;
   line-height: 28px;
-  font-size: 14px;
+  font-size: 20px;
   color: #000;
   opacity: 0.6;
   border-radius: 2px;
@@ -620,7 +628,7 @@ a,
 
 .landing-reason {
   color: #fff;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 .landing-image-text {
@@ -655,7 +663,7 @@ a,
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 15px;
   padding: 8px 37px;
 }
 
@@ -756,18 +764,18 @@ a,
 /* Buttons size */
 .btn.btn-lg {
   padding: 12px 45px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .btn.btn-sm {
   padding: 6px 25px;
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 1px;
 }
 
 .btn.btn-xs {
   padding: 4px 19px;
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0;
 }
 
@@ -785,7 +793,7 @@ a,
   width: 42px;
   height: 40px;
   line-height: 38px;
-  font-size: 14px;
+  font-size: 17px;
   outline: none;
   color: #999;
   margin-top: -20px;
@@ -819,7 +827,7 @@ a,
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 11px;
+  font-size: 14px;
   height: 33px;
   border: 1px solid #EAEAEA;
   border-radius: 2px;
@@ -834,12 +842,12 @@ a,
 .input-lg,
 .form-horizontal .form-group-lg .form-control {
   height: 43px;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .input-sm, .form-horizontal .form-group-sm .form-control {
   height: 29px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .rqst-form {
@@ -887,7 +895,7 @@ p, ol, ul, blockquote {
 blockquote {
   border: 0;
   font-style: italic;
-  font-size: 15px;
+  font-size: 18px;
   padding: 0;
 }
 
@@ -903,7 +911,7 @@ blockquote {
 }
 
 .large-text {
-  font-size: 24px !important;
+  font-size: 27px !important;
 }
 
 .rotate {
@@ -916,27 +924,27 @@ blockquote {
   text-align: center;
        
   font-weight: 400;
-  font-size: 30px;
+  font-size: 33px;
   color: #111;
   margin: 0 0 70px;
 }
 
 .module-subtitle {
   text-align: center;
-  font-size: 16px;
+  font-size: 19px;
   color: #111;
   margin-bottom: 70px;
 }
 
 .module-date {
   text-align: center;
-  font-size: 16px;
+  font-size: 19px;
   color: #111;
   margin-bottom: 10px;
 }
 .module-boldtext {
   text-align: center;
-  font-size: 16px;
+  font-size: 19px;
   color: #000000;
   margin-bottom: 70px;
   font-weight: 800;
@@ -944,7 +952,7 @@ blockquote {
 
 .module-icon {
   text-align: center;
-  font-size: 32px;
+  font-size: 35px;
   margin-bottom: 20px;
 }
 
@@ -952,21 +960,19 @@ blockquote {
   margin-top: -35px;
 }
 
-
 .school-title {
   position: relative;
   letter-spacing: 4px;
   text-align: center;
        
   font-weight: 400;
-  font-size: 30px;
+  font-size: 33px;
   color: #111;
   margin: 0 0 70px;
 }
 
 .school-subtitle {
-  text-align: left;
-  font-size: 16px;
+  font-size: 19px;
   color: #111;
   margin-bottom: 1px;
   font-style: italic;
@@ -974,13 +980,13 @@ blockquote {
 
 .school-date {
   text-align: center;
-  font-size: 16px;
+  font-size: 19px;
   color: #111;
   margin-bottom: -7px;
 }
 .school-boldtext {
   text-align: left;
-  font-size: 16px;
+  font-size: 19px;
   color: #000000;
   margin-bottom: -7px;
   font-weight: 800;
@@ -989,7 +995,7 @@ blockquote {
 
 .school ul > li {
   text-align: left;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 1000;
   font-weight:normal;
 }
@@ -1273,7 +1279,7 @@ Photography Page Slider
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
   letter-spacing: 3px;
-  font-size: 11px;
+  font-size: 13px;
   transition: background, padding 0.4s ease-in-out 0s;
 }
 
@@ -1345,7 +1351,7 @@ Photography Page Slider
   top: 50%;
   margin-top: -6px;
   font: normal normal normal 14px/1 FontAwesome;
-  font-size: 9px;
+  font-size: 12px;
   content: "\f107";
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
@@ -1407,25 +1413,25 @@ Photography Page Slider
 
 .titan-title-size-1 {
   letter-spacing: 4px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .titan-title-size-2 {
   line-height: 1.3;
   letter-spacing: 3px;
-  font-size: 18px;
+  font-size: 21px;
   opacity: .8;
 }
 
 .titan-title-size-3 {
   letter-spacing: 16px;
-  font-size: 46px;
+  font-size: 49px;
 }
 
 .titan-title-size-4 {
   letter-spacing: 24px;
   font-weight: 400;
-  font-size: 48px;
+  font-size: 51px;
 }
 
 /* Agency Page Header */
@@ -1540,7 +1546,7 @@ Photography Page Slider
 .features-icon,
 .alt-features-icon {
   line-height: 1.2;
-  font-size: 42px;
+  font-size: 45px;
   color: #111;
 }
 
@@ -1549,9 +1555,9 @@ Photography Page Slider
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 33px;
   color: #111;
-  margin: 16px 0 15px;
+  margin: 16px 0 5px;
 }
 
 .alt-features-item {
@@ -1568,11 +1574,11 @@ Photography Page Slider
   top: 0;
   text-align: center;
   line-height: 40px;
-  font-size: 28px;
+  font-size: 31px;
 }
 
 .alt-features-title {
-  font-size: 16px;
+  font-size: 19px;
   margin: 0 0 10px;
 }
 
@@ -1584,7 +1590,7 @@ Photography Page Slider
 
 .content-box-title {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 21px;
   color: #111;
   margin: 16px 0 15px;
 }
@@ -1600,7 +1606,6 @@ Photography Page Slider
 .team-image {
   position: relative;
   overflow: hidden;
-  border: thick;
 }
 
 .team-image img {
@@ -1627,17 +1632,17 @@ Photography Page Slider
   left: 0;
   z-index: 2;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   color: #aaa;
   padding: 20px;
 }
 
 .team-detail h5 {
-  font-size: 16px;
+  font-size: 19px;
 }
 
 .team-detail p {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .team-social a {
@@ -1655,12 +1660,12 @@ Photography Page Slider
 }
 
 .team-name {
-  font-size: 14px;
+  font-size: 17px;
   color: #111;
 }
 
 .team-role {
-  font-size: 11px;
+  font-size: 14px;
   color: #aaa;
 }
 
@@ -1678,7 +1683,7 @@ Photography Page Slider
 .menu-title,
 .menu-price {
   margin: 0 0 10px;
-  font-size: 14px;
+  font-size: 17px;
   color: #111;
 }
 
@@ -1914,7 +1919,7 @@ Photography Page Slider
 }
 
 .work-title {
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
   margin: 0 0 6px;
 }
@@ -2004,7 +2009,7 @@ Photography Page Slider
 
 .callout-title {
   font-weight: 400;
-  font-size: 16px;
+  font-size: 19px;
   color: #fff;
   margin: 0;
 }
@@ -2032,7 +2037,7 @@ Photography Page Slider
 .testimonial-text {
   text-align: center;
   font-style: normal;
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .testimonial-caption {
@@ -2041,12 +2046,12 @@ Photography Page Slider
 }
 
 .testimonial-title {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .testimonial-descr {
   color: rgba(255, 255, 255, 0.5);
-  font-size: 11px;
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
@@ -2263,7 +2268,7 @@ Photography Page Slider
 
 /* Accordion */
 .panel-title {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .panel-heading a {
@@ -2278,7 +2283,7 @@ Photography Page Slider
   right: 0px;
   font-family: "FontAwesome";
   line-height: 1;
-  font-size: 14px;
+  font-size: 17px;
   margin-top: -7px;
 }
 
@@ -2342,7 +2347,7 @@ Photography Page Slider
 
 .widget .widget-title {
   border-bottom: 1px dotted #c2c2c2;
-  font-size: 14px;
+  font-size: 17px;
   padding: 0 0 10px;
   margin: 0 0 15px;
 }
@@ -2391,7 +2396,7 @@ Photography Page Slider
 .tags a {
   background: #111;
   display: inline-block;
-  font-size: 10px;
+  font-size: 13px;
   color: #fff;
   padding: 4px 10px 4px 12px;
   margin: 0 1px 4px;
@@ -2413,14 +2418,14 @@ Photography Page Slider
 .comments .comment-title,
 .comment-form .comment-form-title {
   border-bottom: 1px dotted #c2c2c2;
-  font-size: 16px;
+  font-size: 19px;
   color: #111;
   padding-bottom: 15px;
   margin: 0 0 20px;
 }
 
 .comment-author {
-  font-size: 14px;
+  font-size: 17px;
   margin: 0 0 10px;
 }
 
@@ -2498,13 +2503,13 @@ Photography Page Slider
   opacity: 0;
   z-index: 2;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   color: #aaa;
 }
 
 .shop-item-title {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 17px;
   color: #111;
   margin: 15px 0 5px;
 }
@@ -2570,7 +2575,7 @@ Photography Page Slider
 }
 
 .amount {
-  font-size: 32px;
+  font-size: 35px;
   color: #111;
 }
 
@@ -2612,7 +2617,7 @@ Photography Page Slider
 	Documentation Page
 --------------------------------------------------------------*/
 .documentation-page {
-  font-size: 14px;
+  font-size: 17px;
 }
 
 .documentation-page .pln {
@@ -2699,7 +2704,7 @@ Photography Page Slider
     top: 50%;
     margin-top: -6px;
     font: normal normal normal 14px/1 FontAwesome;
-    font-size: 9px;
+    font-size: 12px;
     content: "\f105";
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
@@ -2737,11 +2742,11 @@ Photography Page Slider
   /* Headers */
   .titan-title-size-3 {
     letter-spacing: 8px;
-    font-size: 36px;
+    font-size: 39px;
   }
   .titan-title-size-4 {
     letter-spacing: 12px;
-    font-size: 38px;
+    font-size: 39px;
   }
   .work-item,
   .works-grid-3 .work-item,
@@ -2822,21 +2827,21 @@ Photography Page Slider
   /* Headers */
   .titan-title-size-1 {
     letter-spacing: 2px;
-    font-size: 14px;
+    font-size: 17px;
   }
   .titan-title-size-2 {
     line-height: 1.3;
     letter-spacing: 2px;
-    font-size: 16px;
+    font-size: 19px;
     opacity: .8;
   }
   .titan-title-size-3 {
     letter-spacing: 4px;
-    font-size: 26px;
+    font-size: 29px;
   }
   .titan-title-size-4 {
     letter-spacing: 6px;
-    font-size: 28px;
+    font-size: 31px;
   }
   /* Features */
   .features-item {

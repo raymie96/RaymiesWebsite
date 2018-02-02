@@ -58,6 +58,7 @@
               <li><a class="section-scroll" href="#education">Education</a></li>
               <li><a class="section-scroll" href="#skills">Skills</a></li>
               <li><a class="section-scroll" href="#experience">Experience</a></li>
+              <li><a class="section-scroll" href="#projects">Projects</a></li>
               
             </ul>
           </div>
@@ -76,11 +77,11 @@
     <div class="main">
 
 
-        <section class="module" id="about">
+        <section class="first module" id="about">
             <div class="container">
                 <div class="row">
                     <h2 class="module-title font-alt">About</h2>
-                    <div class="mb-sm-20 wow fadeInUp col-sm-4" onclick="wow fadeInUp">
+                    <div class="mb-sm-20 col-sm-4"> <!-- wow fadeInUp -->
                         <div class="team-item">
                             <div class="team-image"><img src="assets/images/raymie.jpg" alt="Member Photo"/>
                             </div>
@@ -99,41 +100,45 @@
                             feel free to keep scrolling or click on my social media links!
                         </div>
                         <ul class="list-inline list-social-icons mb-0 align-center">
-                         
-                            <!-- <li class="list-inline-item">
-                                 <a href="https://www.twitter.com">                
-                                     <span class="fa-stack fa-3x">
-                                         <i class="fa fa-circle fa-stack-2x"></i>
-                                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                     </span>
-                                 </a>
-                             </li> -->
-
                             <li class="list-inline-item">
                                 <a href="https://www.linkedin.com/in/raymiemichael">
-                                    <!-- linkdin link -->
-                                    <span class="fa-stack fa-3x">
+                                    <span class="fa-stack fa-2x">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                      <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
-
                             <li class="list-inline-item">
                                 <a href="https://github.com/raymiemichael">                 <!-- github link -->
-                                    <span class="fa-stack fa-3x">
+                                    <span class="fa-stack fa-2x">
                                         <i class="fa fa-circle fa-stack-2x"></i>
                                      <i class="fa fa-github fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.twitter.com">                
+                                    <span class="fa-stack fa-2x">
+                                        <i class="fa fa-circle fa-stack-2x"></i>
+                                      <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li> 
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com">                
+                                    <span class="fa-stack fa-2x">
+                                         <i class="fa fa-circle fa-stack-2x"></i>
+                                      <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li> 
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="school" id="education">
+        <section class="first module school" id="education">
             <div class="container">
                 <div class="row">
                     <div class="container">
@@ -150,8 +155,6 @@
                                 </div>
                                 <div class="row">
                                     <ul style="list-style-type:none">
-                                        <li>Introduction to Computer Programming</li>
-                                        <li>Data Structures</li>
                                         <li>Discrete Mathematical Structures for Computer Science</li>
                                         <li>Data Structures</li>
                                         <li>Machine Structures</li>
@@ -187,7 +190,7 @@
             </div>
         </section>
 
-        <section class="module bg-dark-60" data-background="assets/images/sanfran.jpg" id="skills">
+        <section class="module bg-dark-60" data-background="assets/images/wall.jpg" id="skills">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -236,7 +239,6 @@
                     <div class="col-sm-4 col-md-4 col-lg-4">
                         <div class="count-item mb-sm-40">
                             <div class="count-icon"><span class="devicon-javascript-plain"></span></div>
-                            <!-- <h3 class="count-to font-alt" data-countto="JAVA"></h3> -->
                             <h5 class="count-title font-serif">JavaScript</h5>
                         </div>
                     </div>
@@ -245,7 +247,7 @@
             </div>
         </section>
 
-        <section class="module" id="alt-features">
+        <section class="first module" id="experience">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-sm-offset-3">
@@ -253,26 +255,37 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                        <div class="alt-features-item">
-                            <div class="alt-features-icon"><span class="icon-gears"></span></div>
-                            <h3 class="alt-features-title font-alt">Software Engineering Team Lead</h3>In this project, myself and my team of six ecexuted a full software lifecycle. This included practiciing best methods of software engineering teamwork and processes such as Agile/SRCUM and User Centered Design. The result was a real-estate website.
-                        </div>
-                
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6">
-                         <!--  <div class="alt-features-item">
-                            <div class="alt-features-icon"><span class="icon-paperclip"></span></div>
-                            <h3 class="alt-features-title font-alt">Office Coordinator Assistant</h3>Assis
-                        </div> -->
                         <div class="alt-features-item">
                             <div class="alt-features-icon"><span class="icon-tools"></span></div>
-                            <h3 class="alt-features-title font-alt">SFUSD Volunteer</h3>I spent a semester tutoring 6th, 7th, and 8th grade Computer Science courses at Francisco Middle School. The curriculum included introduction to programming, physical computing, HTML/CSS, JavaScript, and data.  
+                            <div class="row">
+                                <h4 class="alt-features-title font-alt">Computer Science Teaching Assistant-San Francisco Education Fund</h4>
+                            </div>
+                            <h4> I worked closely with the instructor, aiding her with lesson planning, homework correction, and achieving academic goals. I tutored the students while occasionally leading lessons. Effectively coordinated with a large network of teachers and school district representatives to ensure that all educational milestones are met in a timely manner. The curriculum included introduction to programming, physical computing, HTML/CSS, JavaScript, and data. </h4> 
+                        </div>
+                </div>
+            </div>
+        </section>
+
+      <!--  <section class="first module" id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <h2 class="module-title font-alt">Projects</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 col-lg-6">
+                        <div class="alt-features-item">
+                            <div class="alt-features-icon"><span class="icon-tools"></span></div>
+                            <div class="row">
+                                <h4 class="alt-features-title font-alt">Real Estate Website</h4>
+                            </div>
+                            <h4>This website </h4> 
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <hr class="divider-w">
 
