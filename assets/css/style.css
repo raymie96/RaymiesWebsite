@@ -27,6 +27,13 @@ section.first {
   min-height: 100vh;
 }
 
+.about-info {
+  text-align: center;
+  font-size: 17px;
+  color: #111;
+  margin-bottom: 70px;
+}
+
 
 .align-center {
   text-align: center;
@@ -931,7 +938,7 @@ blockquote {
 
 .module-subtitle {
   text-align: center;
-  font-size: 19px;
+  font-size: 15px;
   color: #111;
   margin-bottom: 70px;
 }
