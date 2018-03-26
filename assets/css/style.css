@@ -1019,20 +1019,6 @@ blockquote {
   color: #111;
 }
 
-/* Finance case study header */
-.finance-image-content {
-  border: 1px solid #e5e5e5;
-  padding: 60px 0px;
-}
-
-.finance-image-content .module-title {
-  margin-bottom: 20px;
-}
-
-.finance-image-content .alt-features-item {
-  margin-top: 40px;
-}
-
 /* Landing Page */
 .landing-reason .module-title {
   color: #e6af4b;
